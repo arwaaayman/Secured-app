@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("img3.webp");
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+
+}
+body h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    color: black;
+    padding: 40px;
+}
+.loginpageform {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.loginform {
+height: 50vh;
+width: 450px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 0 0 10px rgba(0,0,0,1);
+padding-top: 60px;
+  
+}
+.loginpageform h4{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+.loginform input{
+    color: black;
+    width: 250px;
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow:  0 0 4px #FFF;
+
+}
+.loginpageform .btn1{
+ font-size: 15px;
+ font-weight: 400;
+ transition:  all ease 0.5s;
+ color: #FFF;
+ background-color: black;
+}
+.loginpageform .btn1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.echo_msg_login{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    color: red;  
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+.varclass{
+   
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verifyform{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.verifyform .vartext{
+    width: 300px;
+    padding: 10px;
+    height: 35px;
+    outline: none;
+
+}
+.verifyform .varbtn{
+    width: 120px;
+    padding: 10px;
+    height: 35px;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+    border: none;
+    cursor: pointer;
+}
+.verifyform .varbtn:hover{
+    background-color: white;
+    color: black;
+
+}
+.login_success{
+
+    color: green;
+    position: absolute;
+    font-weight: 500;
+    font-size: 22px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mail{
+    color: red;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loginform a{
+    text-decoration: none;
+    font-size: 14px;
+    color: darkcyan;
+    margin-top: 15px;
+    border-bottom: 1px solid #000;
+
+}

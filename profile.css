@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("img3.webp");
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+
+}
+.formprof{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.prof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.file{
+    font-weight: bold;
+    cursor: pointer;
+}
+.msg{
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.up{
+    width: 180px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border: none;
+    outline: none;
+}
+.up:hover{
+    background-color: white;
+    color: black;
+}
+.done{
+    width: 80px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border: none;
+    outline: none;
+
+}
+.done:hover{
+    background-color: red;
+    color: black;
+}
+
+#user_preview_image{
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.notallow{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    top: 46%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    color: red;    
+}
+.large{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    top: 46%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    color: red;    
+}
+.success{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    top: 46%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    color: red;    
+}

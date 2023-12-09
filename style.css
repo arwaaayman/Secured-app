@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("img3.webp");
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+
+}
+.signupform {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.signupclass {
+height: 70vh;
+width: 500px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+box-shadow: 0 0 10px rgba(0,0,0,1);
+padding-top: 60px;
+  
+}
+.signupform h4{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+.signupclass input{
+    color: black;
+    width: 250px;
+    margin-top: 20px;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow:  0 0 4px #FFF;
+
+}
+.signupclass .btn{
+ font-size: 15px;
+ font-weight: 400;
+ transition:  all ease 0.5s;
+ background-color: black;
+ color: white;
+}
+.signupclass .btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.fill{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+}

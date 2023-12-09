@@ -1,0 +1,41 @@
+.fill{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+    text-transform: uppercase;
+}
+.inserted{
+
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-weight: 700;
+    font-size: 18px;
+    color: green;
+    text-transform: uppercase;
+}
+.notinserted{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+    text-transform: uppercase;   
+}
+.invalid{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    font-weight: 700;
+    font-size: 18px;
+    color: red;
+    text-transform: uppercase;  
+}
